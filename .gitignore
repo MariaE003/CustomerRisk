@@ -1,0 +1,29 @@
+# Environnement virtuel
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+tempCodeRunnerFile.py
+
+# MLflow (base et runs générés en local)
+mlflow.db
+notebooks/mlflow.db
+notebooks/mlruns/
+mlruns/
+
+# Fichiers lourds / générés
+models/*.pkl
+data/*.csv
+
+# IDE / système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Variables d'environnement
+.env
